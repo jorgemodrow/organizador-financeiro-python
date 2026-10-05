@@ -79,14 +79,13 @@ def exibir_fechamento():
 
     gastos_mes = db.obter_gastos_do_mes(mes)
     if gastos_mes:
-        ui.cabecalho(f"TODOS OS GASTOS")
-        print(f"{'DESCRIÇÃO':<25} {'CATEGORIA':<15} {'VALOR (R$)'}")
+        ui.cabecalho("TODOS OS GASTOS")
+        print(f"{'DATA':<11} {'DESCRIÇÃO':<22} {'CATEGORIA':<15} {'VALOR (R$)'}")
         print(ui.linha())
-        for desc, cat, valor in gastos_mes:
-            print(f"{desc:<25} {cat:<15} R$ {valor:>8.2f}")
+        for data, desc, cat, valor in gastos_mes:
+            desc_formatada = desc if len(desc) <= 20 else f"{desc[:19]}.."
+            print(f"{data:<11} {desc_formatada:<22} {cat:<15} R$ {valor:>8.2f}")
         print(ui.linha())
-    pausa()
-
 
 def exibir_extrato(pausar=True):
     ui.cabecalho("ÚLTIMOS LANÇAMENTOS REGISTRADOS")
