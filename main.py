@@ -87,6 +87,8 @@ def exibir_fechamento():
             print(f"{data:<11} {desc_formatada:<22} {cat:<15} R$ {valor:>8.2f}")
         print(ui.linha())
 
+    pausa()
+
 def exibir_extrato(pausar=True):
     ui.cabecalho("ÚLTIMOS LANÇAMENTOS REGISTRADOS")
     historico = db.obter_historico_recente(limite=15)
