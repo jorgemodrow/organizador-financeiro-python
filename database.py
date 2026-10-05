@@ -207,13 +207,9 @@ def exportar_para_csv(nome_arquivo="extrato_financeiro.csv"):
             if not linhas:
                 return False, "Nenhuma transação cadastrada para exportar."
 
-            with open(
-                nome_arquivo, mode="w", newline="", encoding="utf-8-sig"
-            ) as arq:
-                escritor = csv.writer(arq, delimiter=";")
-                escritor.writerow(
-                    ["ID", "Data", "Descrição", "Categoria", "Tipo", "Valor (R$)"]
-                )
+            with open(nome_arquivo, mode="w", newline="", encoding="utf-8-sig") as arq:
+                escritor = csv.writer(arq, delimiter=",")
+                escritor.writerow(["ID", "Data", "Descrição", "Categoria", "Tipo", "Valor (R$)"])
                 for lin in linhas:
                     escritor.writerow(lin)
 
