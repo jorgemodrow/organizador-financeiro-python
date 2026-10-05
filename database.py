@@ -171,10 +171,9 @@ def obter_gastos_do_mes(mes_ano=None):
         mes_ano = datetime.now().strftime("%Y-%m")
 
     query = """
-        SELECT t.descricao, c.nome, t.valor FROM transacoes t
+        SELECT t.data_registro, t.descricao, c.nome, t.valor FROM transacoes t
         JOIN categorias c ON t.categoria_id = c.id
         WHERE c.tipo = 'DESPESA' AND strftime('%Y-%m', t.data_registro) = ?
-        GROUP BY c.id, c.nome
         ORDER BY t.data_registro ASC;
     """
     with conectar() as conn:
