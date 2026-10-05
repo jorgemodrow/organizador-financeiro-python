@@ -1,11 +1,8 @@
 # Organizador Financeiro Pessoal CLI
 
-<img src="https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Versão do Python" />
-<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite3" />
-<img src="https://img.shields.io/badge/Interface-CLI%20Terminal-black?style=for-the-badge" alt="Interface CLI" />
-<img src="https://img.shields.io/badge/Licença-MIT-green?style=for-the-badge" alt="Licença MIT" />
+<img src="https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Versão do Python" /> <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite3" /> <img src="https://img.shields.io/badge/Interface-CLI%20Terminal-black?style=for-the-badge" alt="Interface CLI" /> <img src="https://img.shields.io/badge/Licença-MIT-green?style=for-the-badge" alt="Licença MIT" />
 
-Sistema em linha de comando (CLI) para controle financeiro pessoal, desenvolvido em Python modular com persistência em SQLite, emissão de relatórios mensais e exportação de dados em CSV.
+Sistema em linha de comando (CLI) para controle financeiro pessoal, desenvolvido em Python modular com SQLite, emissão de relatórios mensais e exportação de dados em CSV.
 
 ## Sobre o Projeto
 
@@ -32,12 +29,17 @@ A aplicação foi construída com foco em boas práticas de modularização, sep
 8 - Sair
 -----------------------------------------------------------------
 Sua opção: 3
+
+=================================================================
+                  CONSULTA DE FECHAMENTO MENSAL
+=================================================================
+Mês de referência (AAAA-MM ou <Enter> para o mês atual): 2026-10
 =================================================================
                     FECHAMENTO MENSAL - [2026-10]
 =================================================================
 Total de Entradas (Receitas): R$    3500.00
 Total de Saídas   (Despesas): R$    1420.50
-SALDO DO MÊS:                 R$    2079.50
+SALDO DO MÊS: R$    2079.50
 
 =================================================================
                      DISTRIBUIÇÃO DOS GASTOS
@@ -47,7 +49,19 @@ CATEGORIA                 TOTAL (R$)   % DO MÊS
 Moradia                   R$   800.00     56.3%
 Alimentação               R$   450.50     31.7%
 Transporte                R$   170.00     12.0%
+
+=================================================================
+                         TODOS OS GASTOS
+=================================================================
+DATA        DESCRIÇÃO              CATEGORIA       VALOR (R$)
 -----------------------------------------------------------------
+2026-10-02  Aluguel Residencial    Moradia         R$   800.00
+2026-10-03  Supermercado           Alimentação     R$   320.50
+2026-10-04  Recarga Cartão         Transporte      R$   170.00
+2026-10-05  Almoço Restaurante     Alimentação     R$   130.00
+-----------------------------------------------------------------
+
+Pressione <Enter> para voltar ao menu
 ```
 
 ## Funcionalidades
