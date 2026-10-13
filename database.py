@@ -210,7 +210,9 @@ def exportar_para_csv(nome_arquivo="extrato_financeiro.csv"):
                 escritor = csv.writer(arq, delimiter=",")
                 escritor.writerow(["ID", "Data", "Descrição", "Categoria", "Tipo", "Valor (R$)"])
                 for lin in linhas:
-                    escritor.writerow(lin)
+                    t_id, data_reg, desc, cat_nome, cat_tipo, valor = lin
+                    valor_formatado = f"{valor:.2f}".replace(".", ",")
+                    escritor.writerow([t_id, data_reg, desc, cat_nome, cat_tipo, valor_formatado])
 
             return True, f"Arquivo '{nome_arquivo}' gerado com sucesso!"
     except IOError as e:
