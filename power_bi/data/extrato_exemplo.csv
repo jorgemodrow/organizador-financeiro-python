@@ -1,0 +1,26 @@
+ID;Data;Descrição;Categoria;Tipo;Valor (R$)
+1;2026-10-01;Salário Mensal;Salário;RECEITA;3450,00
+2;2026-10-05;Rendimento CDB;Investimentos;RECEITA;48,75
+3;2026-10-15;Projeto Freelance Web;Freelance;RECEITA;720,00
+4;2026-10-22;Venda Item Usado;Outras;RECEITA;110,00
+5;2026-10-28;Cashback Cartão;Investimentos;RECEITA;25,40
+6;2026-10-02;Aluguel & Condomínio;Moradia;DESPESA;980,00
+7;2026-10-03;Internet Fibra;Assinaturas;DESPESA;99,90
+8;2026-10-04;Plano Celular;Assinaturas;DESPESA;49,90
+9;2026-10-05;Spotify Premium;Assinaturas;DESPESA;21,90
+10;2026-10-06;Netflix & Streaming;Assinaturas;DESPESA;39,90
+11;2026-10-02;Supermercado Mensal;Alimentação;DESPESA;342,60
+12;2026-10-07;Almoço Restaurante;Alimentação;DESPESA;36,50
+13;2026-10-11;Supermercado Feira;Alimentação;DESPESA;84,20
+14;2026-10-16;Cafeteria & Padaria;Alimentação;DESPESA;22,80
+15;2026-10-20;Jantar Delivery;Alimentação;DESPESA;68,50
+16;2026-10-25;Hortifrúti Reposição;Alimentação;DESPESA;47,30
+17;2026-10-03;Recarga Cartão Transporte;Transporte;DESPESA;130,00
+18;2026-10-08;Uber Corrida;Transporte;DESPESA;24,60
+19;2026-10-14;99 Corrida;Transporte;DESPESA;19,40
+20;2026-10-21;Uber Corrida Retorno;Transporte;DESPESA;28,10
+21;2026-10-27;Combustível Posto;Transporte;DESPESA;85,00
+22;2026-10-09;Corte de Cabelo & Barba;Cuidados Pessoais;DESPESA;40,00
+23;2026-10-13;Farmácia Medicamentos;Saúde;DESPESA;55,40
+24;2026-10-18;Livro Técnico / Curso;Educação;DESPESA;64,90
+25;2026-10-24;Cinema & Ingressos;Lazer;DESPESA;46,00
