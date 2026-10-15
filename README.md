@@ -68,7 +68,7 @@ Pressione <Enter> para voltar ao menu
 
 ### Dashboard Analítico (Power BI)
 
-![Prévia do Dashboard Financeiro](power_bi/assets/preview_dashboard.png)
+![Prévia do Dashboard Financeiro](power_bi/data/preview_dashboard.png)
 
 O relatório foi desenvolvido em **Dark Theme** personalizado (com layout de suporte desenhado no Canva), otimizando a hierarquia visual e legibilidade dos dados:
 * **KPIs Centrais:** Cards dinâmicos com Total de Receitas, Total de Despesas, Saldo Líquido e Volume de Lançamentos do período.
