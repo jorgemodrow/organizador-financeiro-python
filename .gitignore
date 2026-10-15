@@ -1,4 +1,16 @@
-extrato_financeiro.csv
-financas_pessoais.db
+# Ambientes virtuais e cache
+.venv/
 __pycache__/
 *.py[cod]
+*.pyc
+
+# IDEs
+.idea/
+.vscode/
+
+# Bases de dados e ficheiros com dados reais
+financas_pessoais.db
+extrato_financeiro.csv
+
+# Ficheiros pesados/binários do Power BI
+*.pbix
