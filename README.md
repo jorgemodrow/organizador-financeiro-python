@@ -197,7 +197,7 @@ organizador-financeiro-python/
 ### 1. Aplicação Python
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/organizador-financeiro-python.git
+   git clone https://github.com/jorgemodrow/organizador-financeiro-python.git
    cd organizador-financeiro-python
    ```
 2. Execute a aplicação (requer Python 3.8+):
